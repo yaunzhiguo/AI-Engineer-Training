@@ -62,7 +62,7 @@ def main():
 
         elif choice == "6":
             print("Bye.")
-            svc._save()  
+            svc.save()  
             break
         else:
             print("Invalid choice.")
