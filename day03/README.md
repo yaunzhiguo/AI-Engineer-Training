@@ -36,14 +36,21 @@ Then start server:
 python -m uvicorn day03.app.main:app --reload --reload-dir day03 --host 127.0.0.1 --port 8000
 Open Swagger UI:http://127.0.0.1:8000/docs
 
-API Endpoints
+## 📡 API Endpoints
+
 GET /health
+
 GET /students
+
 GET /students/{name}
+
 POST /students
+
 PUT /students/{name}
+
 DELETE /students/{name}
 
+###
 ✅ Features Implemented
 
 RESTful API design
